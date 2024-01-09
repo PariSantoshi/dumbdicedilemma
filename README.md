@@ -1,5 +1,8 @@
-# dumbdicedilemma
-Web-based React dice game with score tracking, number selection, and virtual dice rolling. 
-The project is an interactive web-based dice game built with React, offering a user-friendly gaming experience. The game features essential components like Total Score, Number Selector, and Role Dice. Players can roll a virtual dice and select a number, with the game dynamically updating the total score based on the comparison between the rolled dice and the chosen number. The user interface is styled using the styled-components library, ensuring an aesthetically pleasing design.
+# React + Vite
 
-The application includes error handling, notifying users if they haven't selected a number before rolling the dice. Additionally, it allows users to reset their score and conveniently displays or hides game rules. The Reset button clears the current score, providing a fresh start for the player. The Show Rules button toggles the visibility of game rules, enhancing user engagement. Overall, the project provides an enjoyable and visually appealing gaming experience while incorporating essential features like score tracking, number selection, and rule presentation.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
